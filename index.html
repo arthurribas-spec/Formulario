@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia de Heróis - Inscrição</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Academia de Heróis</h1>
+    <p>Inscreva-se para participar da próxima missão.</p>
+  </header>
+
+  <section>
+    <h2>Faça sua inscrição</h2>
+    <form action="#" method="get">
+
+      <label for="nome">Nome completo</label>
+      <input id="nome" name="nome" type="text" required />
+
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="email" required />
+
+      <label for="idade">Idade</label>
+      <input id="idade" name="idade" type="number" required />
+
+      <label for="periodo">Qual período você prefere?</label>
+      <select id="periodo" name="periodo">
+        <option value="manha">Liga da Justiça</option>
+        <option value="tarde">Liga do Superman</option>
+        <option value="noite">Liga dos Super-Heróis</option>
+      </select>
+
+      <fieldset class="grupo-radio">
+        <p>Qual poder você prefere?</p>
+        
+
+        <p class="grupo-checkbox">
+        <input type="radio" id="nao" name="criou_html" value="nao" />
+        <label for="nao" class="label-inline">Voar</label>
+        </p>
+
+           <p class="grupo-checkbox">
+        <input type="radio" id="nao" name="criou_html" value="nao" />
+        <label for="nao" class="label-inline">SuperVelocidade</label>
+        </p>
+
+         <p class="grupo-checkbox">
+        <input type="radio" id="nao" name="criou_html" value="nao" />
+        <label for="nao" class="label-inline">Superforça</label>
+        </p>
+
+         <p class="grupo-checkbox">
+        <input type="radio" id="nao" name="criou_html" value="nao" />
+        <label for="nao" class="label-inline">Quero receber novas missões.</label>
+        </p>
+
+      <label for="expectativa">Por que você quer ser um herói?</label>
+      <textarea id="expectativa" name="expectativa" rows="4"></textarea>
+
+      <button type="submit">Enviar inscrição</button>
+
+    </form>
+  </section>
+
+  <footer>
+    <p>Esta página foi desenvolvida para a prática de formulários HTML.</p>
+  </footer>
+
+</body>
+</html>
